@@ -6,7 +6,6 @@ function polindrome(data) {
   let newStr = "";
   for (let i = data.length - 1; i >= 0; i--) {
     newStr += data[i];
-    // console.log(newStr);
   }
   if (data === newStr) {
     return true;
